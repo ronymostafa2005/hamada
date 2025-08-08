@@ -44,7 +44,19 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
       "contact.lastName": "Last Name",
       "contact.subject": "Subject",
       "contact.message": "Message",
-      "contact.send": "Send Message"
+      "contact.send": "Send Message",
+      "contact.sending": "Sending...",
+      "about.description1": "With over 5 years of experience in software development, I specialize in creating robust web applications and implementing comprehensive Odoo ERP solutions. My expertise spans both frontend and backend technologies, enabling me to deliver end-to-end solutions.",
+      "about.description2": "I'm passionate about writing clean, maintainable code and have successfully delivered projects for clients across various industries including retail, manufacturing, and services.",
+      "about.webDev": "Web Development",
+      "about.webDevDesc": "Modern, responsive web applications using latest technologies",
+      "about.odooDev": "Odoo Development", 
+      "about.odooDevDesc": "Custom Odoo modules and ERP implementations",
+      "skills.frontend": "Frontend Development",
+      "skills.backend": "Backend Development",
+      "skills.odooTitle": "Odoo Development",
+      "skills.otherTech": "Other Technologies",
+      "footer.copyright": "© 2024 Ahmed Osama. All rights reserved. Built with React and Tailwind CSS."
     },
     ar: {
       "nav.home": "الرئيسية",
@@ -76,12 +88,24 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
       "contact.lastName": "اسم العائلة",
       "contact.subject": "الموضوع",
       "contact.message": "الرسالة",
-      "contact.send": "إرسال الرسالة"
+      "contact.send": "إرسال الرسالة",
+      "contact.sending": "جاري الإرسال...",
+      "about.description1": "مع أكثر من 5 سنوات من الخبرة في تطوير البرمجيات، أتخصص في إنشاء تطبيقات ويب قوية وتنفيذ حلول أودو ERP شاملة. خبرتي تشمل تقنيات الواجهة الأمامية والخلفية، مما يمكنني من تقديم حلول متكاملة.",
+      "about.description2": "أنا متحمس لكتابة كود نظيف وقابل للصيانة وقد نجحت في تسليم مشاريع للعملاء عبر صناعات مختلفة بما في ذلك التجزئة والتصنيع والخدمات.",
+      "about.webDev": "تطوير الويب",
+      "about.webDevDesc": "تطبيقات ويب حديثة ومتجاوبة باستخدام أحدث التقنيات",
+      "about.odooDev": "تطوير أودو",
+      "about.odooDevDesc": "وحدات أودو مخصصة وتطبيقات ERP",
+      "skills.frontend": "تطوير الواجهة الأمامية",
+      "skills.backend": "تطوير الواجهة الخلفية",
+      "skills.odooTitle": "تطوير أودو",
+      "skills.otherTech": "تقنيات أخرى",
+      "footer.copyright": "© 2024 أحمد أسامة. جميع الحقوق محفوظة. تم البناء باستخدام React و Tailwind CSS."
     }
   };
 
   const t = (key: string) => {
-    return translations[language][key] || key;
+    return (translations[language] as Record<string, string>)[key] || key;
   };
 
   return (
