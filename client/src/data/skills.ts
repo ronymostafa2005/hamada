@@ -34,10 +34,14 @@ export const skillCategories: SkillCategory[] = [
     title: "Odoo Development",
     icon: "cogs", 
     skills: [
-      { name: "Module Development", level: 5 },
-      { name: "ORM & Models", level: 5 },
-      { name: "QWeb Templates", level: 4 },
-      { name: "API Integration", level: 4 }
+      { name: "XML Views", level: 5 },
+      { name: "Python Backend", level: 5 },
+      { name: "OWL JavaScript", level: 4 },
+      { name: "Portal Development", level: 4 },
+      { name: "Controllers", level: 5 },
+      { name: "Security Groups", level: 4 },
+      { name: "Website Builder", level: 4 },
+      { name: "APIs & Integration", level: 5 }
     ]
   }
 ];

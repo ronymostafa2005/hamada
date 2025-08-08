@@ -77,10 +77,10 @@ export const projects: Project[] = [
   {
     id: "6",
     title: "Manufacturing ERP System",
-    description: "Custom Odoo implementation for manufacturing company with inventory and production modules.",
+    description: "Custom Odoo implementation with inventory tracking, production planning, and quality control modules using advanced XML views and Python controllers.",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
     category: "odoo",
-    technologies: ["Odoo", "Python", "PostgreSQL", "XML"],
+    technologies: ["Python", "XML Views", "OWL JS", "Controllers", "PostgreSQL"],
     links: {
       details: "#",
       caseStudy: "#"
@@ -88,11 +88,11 @@ export const projects: Project[] = [
   },
   {
     id: "7",
-    title: "Retail POS Integration",
-    description: "Custom Odoo POS module with advanced reporting and multi-location inventory management.",
+    title: "Customer Portal & Website Integration",
+    description: "Comprehensive portal solution with customer self-service features, website builder integration, and custom security groups management.",
     image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
     category: "odoo",
-    technologies: ["Odoo", "JavaScript", "XML", "Python"],
+    technologies: ["Portal Development", "Website Builder", "Security Groups", "XML", "Python"],
     links: {
       details: "#",
       caseStudy: "#"
@@ -100,11 +100,11 @@ export const projects: Project[] = [
   },
   {
     id: "8",
-    title: "HR Management System",
-    description: "Complete HR solution with employee management, payroll, and attendance tracking modules.",
+    title: "Third-Party API Integration Suite",
+    description: "Complete integration solution connecting Odoo with external systems including payment gateways, shipping providers, and accounting software through REST APIs.",
     image: "https://images.unsplash.com/photo-1542626991-cbc4e32524cc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
     category: "odoo",
-    technologies: ["Odoo", "Python", "REST API", "PostgreSQL"],
+    technologies: ["APIs & Integration", "Python", "Controllers", "XML Views", "OWL JS"],
     links: {
       details: "#",
       caseStudy: "#"
