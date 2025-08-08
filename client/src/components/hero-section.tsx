@@ -49,7 +49,7 @@ const HeroSection = () => {
           </div>
           <div className="lg:w-1/2 flex justify-center animate-slide-up">
             <img
-              src="@assets/WhatsApp Image 2025-08-09 at 01.14.09_504242fd_1754694893862.jpg"
+              src="/images/ahmed-osama-profile.jpg"
               alt="Ahmed Osama - Software Engineer"
               className="w-80 h-80 rounded-full object-cover shadow-2xl border-4 border-border"
               data-testid="img-profile"
