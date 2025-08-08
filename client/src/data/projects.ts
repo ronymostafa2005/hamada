@@ -16,71 +16,95 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: "1",
-    title: "E-Commerce Platform",
-    description: "Full-stack e-commerce solution with React frontend, Node.js backend, and payment integration.",
-    image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+    title: "1st Decor - Interior Design Website",
+    description: "Modern e-commerce platform for interior design and decoration services with elegant UI and smooth user experience.",
+    image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
     category: "web",
-    technologies: ["React", "Node.js", "MongoDB"],
+    technologies: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
     links: {
-      demo: "#",
+      demo: "https://1stdecor.com",
       github: "#"
     }
   },
   {
-    id: "2", 
-    title: "Manufacturing ERP System",
-    description: "Custom Odoo implementation for manufacturing company with inventory and production modules.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-    category: "odoo",
-    technologies: ["Odoo", "Python", "PostgreSQL"],
+    id: "2",
+    title: "Aboghalib Office - Law Firm Website",
+    description: "Professional website for legal services with appointment booking and case management features.",
+    image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+    category: "web",
+    technologies: ["WordPress", "PHP", "MySQL", "Bootstrap"],
     links: {
-      details: "#",
-      caseStudy: "#"
+      demo: "https://aboghaliaoffice.com",
+      github: "#"
     }
   },
   {
     id: "3",
-    title: "Portfolio Website",
-    description: "Modern portfolio website for creative agency with smooth animations and responsive design.",
-    image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+    title: "Lopsy - E-commerce Platform",
+    description: "Full-featured online store with payment integration and inventory management system.",
+    image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
     category: "web",
-    technologies: ["React", "Tailwind", "Framer Motion"],
+    technologies: ["React", "Node.js", "Stripe API", "PostgreSQL"],
     links: {
-      demo: "#",
+      demo: "https://lopsy.org",
       github: "#"
     }
   },
   {
     id: "4",
-    title: "Retail POS Integration",
-    description: "Custom Odoo POS module with advanced reporting and multi-location inventory management.",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+    title: "Maharh - Saudi Real Estate Platform",
+    description: "Comprehensive real estate platform for property listings and management in Saudi Arabia.",
+    image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+    category: "web",
+    technologies: ["Vue.js", "Laravel", "MySQL", "Google Maps API"],
+    links: {
+      demo: "https://maharh.com.sa/",
+      github: "#"
+    }
+  },
+  {
+    id: "5",
+    title: "Priceless Medical - Healthcare Platform",
+    description: "Medical services platform with appointment booking and patient management system.",
+    image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+    category: "web",
+    technologies: ["React", "Django", "PostgreSQL", "WebRTC"],
+    links: {
+      demo: "https://pricelessmed.com/",
+      github: "#"
+    }
+  },
+  {
+    id: "6",
+    title: "Manufacturing ERP System",
+    description: "Custom Odoo implementation for manufacturing company with inventory and production modules.",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
     category: "odoo",
-    technologies: ["Odoo", "JavaScript", "XML"],
+    technologies: ["Odoo", "Python", "PostgreSQL", "XML"],
     links: {
       details: "#",
       caseStudy: "#"
     }
   },
   {
-    id: "5",
-    title: "Social Media Dashboard",
-    description: "Analytics dashboard for social media management with real-time data visualization.",
-    image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-    category: "web",
-    technologies: ["Vue.js", "Chart.js", "Laravel"],
+    id: "7",
+    title: "Retail POS Integration",
+    description: "Custom Odoo POS module with advanced reporting and multi-location inventory management.",
+    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+    category: "odoo",
+    technologies: ["Odoo", "JavaScript", "XML", "Python"],
     links: {
-      demo: "#",
-      github: "#"
+      details: "#",
+      caseStudy: "#"
     }
   },
   {
-    id: "6",
-    title: "HR Management System", 
+    id: "8",
+    title: "HR Management System",
     description: "Complete HR solution with employee management, payroll, and attendance tracking modules.",
     image: "https://images.unsplash.com/photo-1542626991-cbc4e32524cc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
     category: "odoo",
-    technologies: ["Odoo", "Python", "REST API"],
+    technologies: ["Odoo", "Python", "REST API", "PostgreSQL"],
     links: {
       details: "#",
       caseStudy: "#"

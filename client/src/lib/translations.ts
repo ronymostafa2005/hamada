@@ -7,7 +7,7 @@ export const translations = {
     "nav.projects": "Projects",
     "nav.skills": "Skills",
     "nav.contact": "Contact",
-    "hero.title": "Ahmed Hassan",
+    "hero.title": "Ahmed Osama",
     "hero.subtitle": "Full Stack Developer & Odoo Specialist",
     "hero.description": "Passionate software engineer with expertise in web development and Odoo customization. I build scalable web applications and implement robust ERP solutions that drive business growth.",
     "hero.viewWork": "View My Work",
@@ -43,7 +43,7 @@ export const translations = {
     "contact.message": "Message",
     "contact.send": "Send Message",
     "contact.sending": "Sending...",
-    "footer.copyright": "© 2024 Ahmed Hassan. All rights reserved. Built with React and Tailwind CSS."
+    "footer.copyright": "© 2024 Ahmed Osama. All rights reserved. Built with React and Tailwind CSS."
   },
   ar: {
     "nav.home": "الرئيسية",
@@ -51,7 +51,7 @@ export const translations = {
     "nav.projects": "المشاريع",
     "nav.skills": "المهارات",
     "nav.contact": "التواصل",
-    "hero.title": "أحمد حسن",
+    "hero.title": "أحمد أسامة",
     "hero.subtitle": "مطور ويب متكامل ومتخصص أودو",
     "hero.description": "مهندس برمجيات متحمس بخبرة في تطوير الويب وتخصيص أودو. أقوم ببناء تطبيقات ويب قابلة للتوسع وتنفيذ حلول ERP قوية تحفز نمو الأعمال.",
     "hero.viewWork": "شاهد أعمالي",
@@ -87,7 +87,7 @@ export const translations = {
     "contact.message": "الرسالة",
     "contact.send": "إرسال الرسالة",
     "contact.sending": "جاري الإرسال...",
-    "footer.copyright": "© 2024 أحمد حسن. جميع الحقوق محفوظة. تم البناء باستخدام React و Tailwind CSS."
+    "footer.copyright": "© 2024 أحمد أسامة. جميع الحقوق محفوظة. تم البناء باستخدام React و Tailwind CSS."
   }
 } as const;
 

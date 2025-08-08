@@ -86,7 +86,7 @@ const ContactSection = () => {
               <Mail className="text-primary text-xl mt-1" />
               <div>
                 <h3 className="text-lg font-semibold mb-2">{t("contact.email")}</h3>
-                <p className="text-muted-foreground">ahmed.hassan@example.com</p>
+                <p className="text-muted-foreground">ahmed.osama.swe@gmail.com</p>
               </div>
             </div>
             <div className="flex items-start space-x-4" data-testid="contact-phone">
@@ -100,7 +100,7 @@ const ContactSection = () => {
               <MapPin className="text-destructive text-xl mt-1" />
               <div>
                 <h3 className="text-lg font-semibold mb-2">{t("contact.location")}</h3>
-                <p className="text-muted-foreground">Cairo, Egypt</p>
+                <p className="text-muted-foreground">Alexandria, Egypt</p>
               </div>
             </div>
             

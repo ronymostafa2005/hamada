@@ -1,8 +1,19 @@
-# Ahmed Hassan Portfolio - Full Stack Developer & Odoo Specialist
+# Ahmed Osama Portfolio - Full Stack Developer & Odoo Specialist
 
 ## Overview
 
-This is a modern portfolio website for Ahmed Hassan, a Full Stack Developer and Odoo ERP Specialist. The project showcases professional experience, technical skills, and featured projects through an interactive, responsive web application. The portfolio is built as a single-page application with smooth navigation, contact functionality, and multi-language support (English/Arabic).
+This is a modern portfolio website for Ahmed Osama, a Full Stack Developer and Odoo ERP Specialist based in Alexandria, Egypt. The project showcases professional experience, technical skills, and featured projects through an interactive, responsive web application. The portfolio is built as a single-page application with smooth navigation, contact functionality, and multi-language support (English/Arabic).
+
+## Recent Changes (August 2025)
+
+- Updated all personal information to reflect Ahmed Osama's real details
+- Replaced profile image with actual photo
+- Updated contact email to ahmed.osama.swe@gmail.com  
+- Changed location from Cairo to Alexandria, Egypt
+- Updated project portfolio with real websites:
+  - Web Development: 1stdecor.com, aboghaliaoffice.com, lopsy.org, maharh.com.sa, pricelessmed.com
+  - Odoo Development: Custom ERP systems for manufacturing, retail POS, and HR management
+- All projects now link to live, working websites
 
 ## User Preferences
 

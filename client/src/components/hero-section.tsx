@@ -49,8 +49,8 @@ const HeroSection = () => {
           </div>
           <div className="lg:w-1/2 flex justify-center animate-slide-up">
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400"
-              alt="Ahmed Hassan - Software Engineer"
+              src="@assets/WhatsApp Image 2025-08-09 at 01.14.09_504242fd_1754694893862.jpg"
+              alt="Ahmed Osama - Software Engineer"
               className="w-80 h-80 rounded-full object-cover shadow-2xl border-4 border-border"
               data-testid="img-profile"
             />
