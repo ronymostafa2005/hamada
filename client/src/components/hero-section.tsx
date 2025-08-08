@@ -52,7 +52,7 @@ const HeroSection = () => {
               src="/images/ahmed-osama-profile.jpg"
               alt="Ahmed Osama - Software Engineer"
               className="w-80 h-80 rounded-full object-cover shadow-2xl border-4 border-border"
-              style={{ objectPosition: 'center 20%' }}
+              style={{ objectPosition: 'center 15%' }}
               data-testid="img-profile"
             />
           </div>
