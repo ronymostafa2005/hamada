@@ -34,4 +34,8 @@ export default defineConfig({
       deny: ["**/.*"],
     },
   },
+  // Add this for Vercel compatibility
+  define: {
+    global: 'globalThis',
+  },
 });
